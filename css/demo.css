@@ -1,0 +1,184 @@
+@font-face {
+    font-family: "ExoB";
+    src: url('/fonts/Exo2-Medium.ttf');
+}
+
+html {
+    font-size: 18px;
+}
+
+body {
+    margin: 0;
+    font-family: "ExoB";
+}
+
+.logoimg {
+    padding: 5px;
+}
+
+.active > a, .menu > .active > a:hover, .menu > .active > a:focus {
+    color: azure;
+    background-color: #1D899E;
+    font-size: 120%;
+}
+
+.menu{
+    margin-top:20px; 
+}
+
+.social-fb{
+    color: #3B5998;
+    padding-left: 10px;
+    word-break: keep-all;
+}
+
+.social-link{
+    color: #0077B5;
+    padding-left: 10px;
+    word-break: keep-all;
+}
+
+.social-twit{
+    color: #1DA1F2;
+    padding-left: 10px;
+    word-break: keep-all;
+}
+
+.social-gp{
+    color: #DD4B39;
+    padding-left: 10px;
+    word-break: keep-all;
+}
+
+.social-yt{
+    color: #E62117;
+    padding-left: 10px;
+    word-break: keep-all;
+}
+
+.social-panel{
+    padding: 2px;
+    position: relative;
+    margin-top: 50px;
+};
+
+.collapse_menu{
+    padding-left: 2px;
+}
+
+.copyright{
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+}
+
+.item{
+    height: ;
+}
+
+.full-screen {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.serlist {
+    list-style-type: none;
+}
+
+header {
+    position: relative;
+    /*top: 0;
+    left: 0;*/
+    z-index: 999;
+
+    width: 100%;
+    height: 50px;
+
+    background: #eee;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 -20px 20px 20px;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0 15px;
+    height: 50px;
+    line-height: 50px;
+    font-weight: 400;
+    font-size: 18px;
+    float: left;
+}
+
+.wrapper {
+    /*margin-top: 50px;*/
+    /*padding: 15px 30px;*/
+    transition: all 0.3s ease-out;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      height: auto;
+    width: 1626.89px;
+  }
+
+.slider {
+    padding-right: 0px;
+    padding-left: 0px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.slider-page {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.section-padding{
+    padding: 20px;
+}
+
+.page-header {
+    margin-top: 10px;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* Small devices (tablets)
+==========================*/
+@media (min-width: 768px) {
+    
+}
+
+/* Medium devices (desktops)
+==========================*/
+@media (min-width: 992px) {
+
+    body {
+        overflow-y: scroll;
+    }
+
+    .logoimg {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        float: none;
+    }
+
+    .wrapper {
+        margin-left: 200px;
+    }
+
+    .wrapper__minify {
+        margin-left: 50px;
+    }
+
+}
+
+.vertical_nav {
+    z-index: 9000;
+}

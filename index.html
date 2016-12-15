@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <title>Vertical Responsive Menu - Demonstration</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href='css/normalize.css' rel='stylesheet'>
+    <link href='css/font-awesome.min.css' rel='stylesheet'>
+    <link href="css/vertical-responsive-menu.min.css" rel="stylesheet">
+    <link href="css/demo.css" rel="stylesheet"> </head>
+
+<body>
+    <header>
+        <button type="button" id="toggleMenu" class="toggle_menu"> <i class="fa fa-bars"></i> </button>
+        <h1>Vertical Menu Site</h1> </header>
+    <nav class="vertical_nav toggle-content">
+        <a href="index.html" title="Home" id="logo"> <img src="img/logo.jpg" alt="Logo" class="logoimg"> </a>
+        <ul id="js-menu" class="menu">
+            <li class="menu--item active">
+                <a href="index.html" class="menu--link"> <i class="menu--icon fa fa-fw fa-user" aria-hidden="true"></i> <span class="menu--label">Home</span> </a>
+            </li>
+            <li class="menu--item">
+                <a href="services.html" class="menu--link"> <i class="menu--icon  fa fa-fw fa-wrench" aria-hidden="true"></i> <span class="menu--label">Services</span> </a>
+            </li>
+            <li class="menu--item">
+                <a href="about.html" class="menu--link"> <i class="menu--icon  fa fa-fw fa-male" aria-hidden="true"></i> <span class="menu--label">About Us</span> </a>
+            </li>
+            <li class="menu--item">
+                <a href="projects.html" class="menu--link"> <i class="menu--icon  fa fa-fw fa-table" aria-hidden="true"></i> <span class="menu--label">Projects</span> </a>
+            </li>
+            <li class="menu--item">
+                <a href="messages.html" class="menu--link"> <i class="menu--icon  fa fa-fw fa-comments" aria-hidden="true"></i> <span class="menu--label">Messages</span> </a>
+            </li>
+            <li class="menu--item">
+                <a href="contact.html" class="menu--link"> <i class="menu--icon  fa fa-fw fa-address-book" aria-hidden="true"></i> <span class="menu--label">Contact</span> </a>
+            </li>
+        </ul>
+        <div class="social-panel">
+            <a href="https://www.facebook.com/" title="facebook" id="logo"> <i class="fa fa-facebook-square fa-2x social-fb" aria-hidden="true"></i> </a>
+            <a href="https://www.linkedin.com/" title="linkedin" id="logo"> <i class="fa fa-linkedin-square fa-2x social-link" aria-hidden="true"></i> </a>
+            <a href="https://twitter.com/" title="twitter" id="logo"> <i class="fa fa-twitter-square fa-2x social-twit" aria-hidden="true"></i> </a>
+            <a href="https://plus.google.com/" title="google+" id="logo"> <i class="fa fa-google-plus-square fa-2x social-gp" aria-hidden="true"></i> </a>
+            <a href="https://www.youtube.com/" title="youtube" id="logo"> <i class="fa fa-youtube fa-2x social-yt" aria-hidden="true"></i> </a>
+            <br> </div>
+        <button id="collapse_menu" class="collapse_menu"><i class="collapse_menu--icon  fa fa-fw"></i><span class="collapse_menu--label"></span></button>
+    </nav>
+    <div class="wrapper">
+        <section>
+            <div class="slider-page">
+                <div id="mycarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#mycarousel" data-slide-to="0"></li>
+                        <li data-target="#mycarousel" data-slide-to="1"></li>
+                        <li data-target="#mycarousel" data-slide-to="2"></li>
+                        <li data-target="#mycarousel" data-slide-to="3"></li>
+                        <li data-target="#mycarousel" data-slide-to="4"></li>
+                    </ol>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item"> <img src="img/kc7xqfttcc4-rob-bye.jpg" data-color="lightblue" alt="First Image">
+                            <div class="carousel-caption">
+                                <h3>First Image</h3> </div>
+                        </div>
+                        <div class="item"> <img src="img/isl7czxip-k-kamesh-vedula.jpg" data-color="firebrick" alt="Second Image">
+                            <div class="carousel-caption">
+                                <h3>Second Image</h3> </div>
+                        </div>
+                        <div class="item"> <img src="img/_smzsuzwkhg-stefan-kunze.jpg" data-color="violet" alt="Third Image">
+                            <div class="carousel-caption">
+                                <h3>Third Image</h3> </div>
+                        </div>
+                        <div class="item"> <img src="img/93g2k8d1mi8-jordan-mcqueen.jpg" data-color="lightgreen" alt="Fourth Image">
+                            <div class="carousel-caption">
+                                <h3>Fourth Image</h3> </div>
+                        </div>
+                        <div class="item"> <img src="img/12rzbjhq89e-neil-thomas.jpg" data-color="tomato" alt="Fifth Image">
+                            <div class="carousel-caption">
+                                <h3>Fifth Image</h3> </div>
+                        </div>
+                    </div>
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#mycarousel" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a>
+                    <a class="right carousel-control" href="#mycarousel" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="js/vertical-responsive-menu.min.js"></script>
+    <script src="js/jquery-ui-1.9.2.custom.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/carousel.js"></script>
+</body>
+
+</html>

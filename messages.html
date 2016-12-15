@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <title>Vertical Responsive Menu - Demonstration</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href='css/normalize.css' rel='stylesheet'>
+    <link href='css/font-awesome.min.css' rel='stylesheet'>
+    <link href="css/vertical-responsive-menu.min.css" rel="stylesheet">
+    <link href="css/demo.css" rel="stylesheet"> </head>
+
+<body>
+    <header>
+        <button type="button" id="toggleMenu" class="toggle_menu"> <i class="fa fa-bars"></i> </button>
+        <h1>Vertical Menu Site</h1> </header>
+    <nav class="vertical_nav toggle-content">
+        <a href="index.html" title="Home" id="logo"> <img src="img/logo.jpg" alt="Logo" class="logoimg"> </a>
+        <ul id="js-menu" class="menu">
+            <li class="menu--item ">
+                <a href="index.html" class="menu--link"> <i class="menu--icon fa fa-fw fa-user" aria-hidden="true"></i> <span class="menu--label">Home</span> </a>
+            </li>
+            <li class="menu--item">
+                <a href="services.html" class="menu--link"> <i class="menu--icon  fa fa-fw fa-wrench" aria-hidden="true"></i> <span class="menu--label">Services</span> </a>
+            </li>
+            <li class="menu--item">
+                <a href="about.html" class="menu--link"> <i class="menu--icon  fa fa-fw fa-male" aria-hidden="true"></i> <span class="menu--label">About Us</span> </a>
+            </li>
+            <li class="menu--item">
+                <a href="projects.html" class="menu--link"> <i class="menu--icon  fa fa-fw fa-table" aria-hidden="true"></i> <span class="menu--label">Projects</span> </a>
+            </li>
+            <li class="menu--item active">
+                <a href="messages.html" class="menu--link"> <i class="menu--icon  fa fa-fw fa-comments" aria-hidden="true"></i> <span class="menu--label">Messages</span> </a>
+            </li>
+            <li class="menu--item">
+                <a href="contact.html" class="menu--link"> <i class="menu--icon  fa fa-fw fa-address-book" aria-hidden="true"></i> <span class="menu--label">Contact</span> </a>
+            </li>
+        </ul>
+        <div class="social-panel">
+            <a href="https://www.facebook.com/" title="facebook" id="logo"> <i class="fa fa-facebook-square fa-2x social-fb" aria-hidden="true"></i> </a>
+            <a href="https://www.linkedin.com/" title="linkedin" id="logo"> <i class="fa fa-linkedin-square fa-2x social-link" aria-hidden="true"></i> </a>
+            <a href="https://twitter.com/" title="twitter" id="logo"> <i class="fa fa-twitter-square fa-2x social-twit" aria-hidden="true"></i> </a>
+            <a href="https://plus.google.com/" title="google+" id="logo"> <i class="fa fa-google-plus-square fa-2x social-gp" aria-hidden="true"></i> </a>
+            <a href="https://www.youtube.com/" title="youtube" id="logo"> <i class="fa fa-youtube fa-2x social-yt" aria-hidden="true"></i> </a>
+            <br> </div>
+        <button id="collapse_menu" class="collapse_menu"><i class="collapse_menu--icon fa fa-fw"></i></button>
+    </nav>
+    <div class="wrapper">
+        <section class="section-padding">
+            <h1 class="page-header">Our Message</h1>
+            <p>1. You have to dream before your dreams can come true. - <span class="text-muted">A. P. J. Abdul Kalam</span></p>
+            <p>2. Two things are infinite: the universe and human stupidity; and I'm not sure about the universe. - <span class="text-muted">Albert Einstein</span></p>
+            <p>3. The black holes of nature are the most perfect macroscopic objects there are in the universe: the only elements in their construction are our concepts of space and time. - <span class="text-muted">Subrahmanyan Chandrasekhar</span></p>
+            <p>4. Imagination is more important than knowledge. - <span class="text-muted">Albert Einstein</span></p>
+        </section>
+    </div>
+    <script src="js/vertical-responsive-menu.min.js"></script>
+    <script src="js/jquery-ui-1.9.2.custom.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
