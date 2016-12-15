@@ -1,3 +1,3 @@
 # Vertical-menu
-Live Demo:
+## Live Demo:
 https://jenish21.github.io/Vertical-menu/
